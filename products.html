@@ -68,7 +68,7 @@
           </tbody>
         </table>
         <!-- 分頁元件 -->
-        <pagination :pages="pagination" @get-data="getData"></pagination>
+        <pagination :pages="pagination" @emit-pages="getData"></pagination>
       </div>
       <!-- Modal -->
       <div
